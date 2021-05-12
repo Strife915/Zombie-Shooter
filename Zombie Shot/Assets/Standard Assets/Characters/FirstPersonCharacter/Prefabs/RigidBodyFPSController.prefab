@@ -59,7 +59,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -181,6 +181,8 @@ GameObject:
   - component: {fileID: 11400004}
   - component: {fileID: 1466821381}
   - component: {fileID: 4855162863110487435}
+  - component: {fileID: 1428492083}
+  - component: {fileID: 1428492084}
   m_Layer: 0
   m_Name: RigidBodyFPSController
   m_TagString: Untagged
@@ -329,6 +331,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamerOverCanvas: {fileID: 0}
+--- !u!114 &1428492083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91dda02ed2177c449a2a55b58792e257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 2000000}
+  zoomedOutFOV: 50
+  zoomedInFOV: 35
+--- !u!114 &1428492084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3b97298a3b57347b1ee4c185cbe377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
 --- !u!1 &412587254
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,6 +408,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 6444269693531055845}
   hitEffect: {fileID: 4150814540394903158, guid: 742b4ab7d6694a0469052ba90dababc1,
     type: 3}
+  ammoSlot: {fileID: 1428492084}
 --- !u!1001 &89969232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -479,6 +510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6444269693450007733, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6444269693450007733, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
