@@ -433,6 +433,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &230896088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5355034263960075566, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 5355034264057317643}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &230896090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230896088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc03828364150c447a22731dff0e8868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeapon: 2
 --- !u!1001 &266037252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3414,7 +3433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1972613185
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3709,6 +3728,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034263960075566, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: m_Name
+      value: Weapons
+      objectReference: {fileID: 0}
+    - target: {fileID: 6259839542739641584, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794862016959239778, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: range
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655578246478737854, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655578247331848206, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6, type: 3}
