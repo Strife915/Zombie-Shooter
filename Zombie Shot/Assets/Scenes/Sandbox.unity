@@ -3669,6 +3669,41 @@ PrefabInstance:
       propertyPath: gamerOverCanvas
       value: 
       objectReference: {fileID: 1972613188}
+    - target: {fileID: 5355034261995903926, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034262943835884, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoSlots.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034262943835884, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034262943835884, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[2].ammoType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034262943835884, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[0].ammoAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034262943835884, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[1].ammoAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355034262943835884, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoSlots.Array.data[2].ammoAmount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5355034263835325274, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
         type: 3}
       propertyPath: m_RootOrder
@@ -3743,6 +3778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: range
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794862016959239778, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
+        type: 3}
+      propertyPath: ammoType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7655578246478737854, guid: 47a1b9b5bc193e645bf5ac9f7a6e76b6,
         type: 3}
